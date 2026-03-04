@@ -105,7 +105,6 @@ function App() {
       <footer className="credits">
         <span>Illustrations and site by <a href="https://x.com/noahfarrar" target="_blank" rel="noopener noreferrer">@noahfarrar</a></span>
         <span>Made with <a href="https://haptics.lochie.me/" target="_blank" rel="noopener noreferrer">web-haptics</a> by <a href="https://x.com/lochieaxon" target="_blank" rel="noopener noreferrer">@lochieaxon</a> & <a href="https://x.com/alexvanderzon" target="_blank" rel="noopener noreferrer">@alexvanderzon</a></span>
-        <span><a href="https://noahfarrar.com" target="_blank" rel="noopener noreferrer">noahfarrar.com</a></span>
       </footer>
     </ParticlesProvider>
   )
