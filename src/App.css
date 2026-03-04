@@ -311,8 +311,8 @@
 
   .credits {
     position: static;
-    margin-top: 24px;
-    padding-bottom: 32px;
+    margin-top: 0;
+    padding-bottom: 24px;
     color: #bbb;
     opacity: 0.6;
   }
