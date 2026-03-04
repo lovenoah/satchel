@@ -269,6 +269,7 @@
     gap: 24px 86px;
     padding: 200px 48px 0;
     align-content: start;
+    justify-content: center;
   }
 
   .toy__icon {
