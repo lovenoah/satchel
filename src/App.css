@@ -1,8 +1,10 @@
 .app {
+  min-height: 100dvh;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px 16px;
-  padding: 80px 28px 100px;
+  padding: 0 28px 100px;
+  align-content: center;
   justify-items: center;
 }
 
