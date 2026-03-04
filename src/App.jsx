@@ -97,15 +97,15 @@ function App() {
         {TOYS.map(toy => (
           <ToyCard key={toy.id} toy={toy} trigger={trigger} />
         ))}
-        <div className="qr-section">
-          <StyledQR />
-          <span className="qr-label">Scan to try haptics on mobile</span>
-        </div>
-        <footer className="credits">
-          <span>Made with <a href="https://haptics.lochie.me/" target="_blank" rel="noopener noreferrer">web-haptics</a> by <a href="https://x.com/lochieaxon" target="_blank" rel="noopener noreferrer">@lochieaxon</a></span>
-          <span><a href="https://noahfarrar.com" target="_blank" rel="noopener noreferrer">noahfarrar.com</a></span>
-        </footer>
       </div>
+      <div className="qr-section">
+        <StyledQR />
+        <span className="qr-label">Scan to try haptics on mobile</span>
+      </div>
+      <footer className="credits">
+        <span>Made with <a href="https://haptics.lochie.me/" target="_blank" rel="noopener noreferrer">web-haptics</a> by <a href="https://x.com/lochieaxon" target="_blank" rel="noopener noreferrer">@lochieaxon</a></span>
+        <span><a href="https://noahfarrar.com" target="_blank" rel="noopener noreferrer">noahfarrar.com</a></span>
+      </footer>
     </ParticlesProvider>
   )
 }

@@ -282,14 +282,11 @@
   }
 
   .qr-section {
-    position: absolute;
-    bottom: 100px;
-    left: 0;
-    right: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 14px;
+    margin-top: 80px;
     opacity: 0;
     animation: labelIn 0.5s ease-out 0.7s both;
   }
@@ -303,8 +300,9 @@
   }
 
   .credits {
-    position: absolute;
-    bottom: 32px;
+    position: static;
+    margin-top: 24px;
+    padding-bottom: 32px;
     color: #bbb;
     opacity: 0.6;
   }
