@@ -1,4 +1,4 @@
-import { createContext, useContext, useRef, useCallback, useEffect, useState } from 'react'
+import { createContext, useContext, useRef, useCallback, useEffect } from 'react'
 
 const ParticlesContext = createContext(null)
 
