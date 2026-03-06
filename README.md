@@ -1,16 +1,43 @@
-# React + Vite
+# Satchel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A playful demo showcasing [web-haptics](https://haptics.lochie.me/) — tap illustrated toys to feel different haptic feedback patterns on mobile.
 
-Currently, two official plugins are available:
+**[Try it live](https://satchel.noahfarrar.me)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![](OG.png)
 
-## React Compiler
+## Toys
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Each toy triggers a unique haptic pattern and tap animation:
 
-## Expanding the ESLint configuration
+| Toy | Haptic | Animation |
+| --- | --- | --- |
+| Potion | `error` | buzz |
+| Carrot | `nudge` | wobble |
+| Map | `success` | pop |
+| Skull | `buzz` | headshake |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Tapping also bursts themed SVG particles (stars, hearts, coins, skulls) rendered on a canvas overlay.
+
+## Stack
+
+- **React 19** + **Vite 7**
+- [web-haptics](https://haptics.lochie.me/) for haptic feedback
+- [qr-code-styling](https://github.com/nicolo-ribaudo/qr-code-styling) for the QR code (desktop only, links to mobile demo)
+- Custom SVG illustrations
+- CSS keyframe animations (idle rocking/floating, tap reactions, particle physics)
+
+## Getting Started
+
+```bash
+cd haptic-app
+npm install
+npm run dev
+```
+
+Open on your phone (or scan the QR code on desktop) to feel the haptics.
+
+## Credits
+
+- Illustrations and site by [@noahfarrar](https://x.com/noahfarrar)
+- Built with [web-haptics](https://haptics.lochie.me/) by [@lochieaxon](https://x.com/lochieaxon) & [@alexvanderzon](https://x.com/alexvanderzon)
